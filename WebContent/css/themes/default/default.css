@@ -1,0 +1,112 @@
+
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+   
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 0;
+	position:absolute;
+	margin-top:-40px;
+	left:50%;
+	background:url(bullet_bg.png);
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	
+	z-index:999;
+	margin-left:-150px;
+	padding:4px 6px 6px 6px;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:81px;
+	height:9px;
+	background: #666;
+	opacity:0.9;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-color:#25c9da;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:81px;
+	height:81px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+	top:100%;
+	margin-top:-81px;
+
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:0px -81px;
+	right:-1px;
+}
+.theme-default a.nivo-prevNav {
+	left:0px;
+}
+
+.theme-default .nivo-caption {
+    font-family: 'Open Sans', sans-serif;
+	top:80px;
+	left:20%;
+	margin-left:-10%;
+	width:80%;
+	bottom:auto;
+	background:none;
+	text-transform:uppercase;
+}
+.nivo-caption{opacity:1; text-align:center}
+.nivo-caption p.nivotitle{background:url('../../../images/nivo_bg.png'); margin:20px auto; padding:10px 20px; font-size:36px; color:#fff; margin-bottom:10px;  font-family: 'Open Sans', sans-serif; display:inline-block}
+.nivo-caption p.nivotitle.v1{font-size:1.4em;}
+.nivo-caption p.nivotitle.v2{font-size:2em; background:#278ad8; }
+.nivo-caption p.nivotitle.v3{background:#25c9da; font-size:1.4em; letter-spacing:2px}
+
+
+
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
